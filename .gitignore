@@ -1,0 +1,14 @@
+# Исходник хранится локально
+docs/*.docx
+
+# agents related
+.codex
+.codex-*
+.claude/*
+!.claude/skills/
+.develop-review-loop/
+AGENTS.md
+CLAUDE.md
+
+# macOS
+.DS_Store
