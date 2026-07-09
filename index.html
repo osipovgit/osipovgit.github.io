@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Евгений Осипов — резюме, DevOps Engineer</title>
   <meta name="description" content="Резюме Евгения Осипова — DevOps Engineer, Data Platform & Big Data Infrastructure. Скачать PDF и контакты.">
-  <meta name="theme-color" content="#0b0f14">
+  <meta name="theme-color" content="#111722">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/style.css">
 
@@ -25,7 +25,7 @@
 
       <div class="win__body">
         <aside class="pane">
-          <img class="avatar" src="assets/avatar.jpg" alt="Евгений Осипов" width="56" height="56">
+          <button type="button" class="avatar" popovertarget="photo" aria-label="Открыть фото крупно"></button>
           <nav class="pane__nav" aria-label="Разделы резюме">
             <a class="pane__link is-active" href="#about" aria-current="page">Обо мне</a>
             <span class="pane__link is-soon" title="Появится на этапе 2">Опыт</span>
@@ -58,6 +58,13 @@
         </nav>
       </div>
     </section>
+
+    <!-- Увеличение фото по клику — нативный popover, без JS -->
+    <div id="photo" class="lightbox" popover>
+      <button type="button" class="lightbox__close" popovertarget="photo" popovertargetaction="hide" aria-label="Закрыть фото">
+        <img class="lightbox__img" src="assets/avatar.jpg?v=2" alt="Фото: Евгений Осипов">
+      </button>
+    </div>
 
     <footer class="foot">© 2026 Евгений Осипов</footer>
   </main>
