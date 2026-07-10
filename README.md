@@ -1,5 +1,6 @@
-# Осипов Евгений  
+# Евгений Осипов
 
-### DevOps at Huawei Cloud
+**DevOps Engineer  @Huawei Cloud**
+Data Platform & Big Data Infrastructure
 
-[Резюме](https://osipovgit.github.io/docs/CV_Osipov_Evgeny_DevOps.pdf)
+🌐 [osipovgit.github.io](https://osipovgit.github.io/) · 📄 [Резюме (PDF)](https://osipovgit.github.io/docs/CV_Osipov_Evgeny_DevOps.pdf)
